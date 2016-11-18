@@ -1,4 +1,4 @@
-#构建第一个webpack
+# 构建第一个webpack
 
 
     1.配置 entry  输入文件  entry.js

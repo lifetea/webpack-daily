@@ -22,12 +22,19 @@ css-loader 和 style-loader
             test:/\.css$/,
             loader:'style-loader'
         }
-###css-loader    
+###style-loader    
 ####作用:     
-    style-loader的作用
-####用法:    
     通过style-loader把css内容插入到页面当中
+####用法:    
     
+    1.js中引入:
+    var css = require("style!css!./app.css");
+    2.在webpack配置中loader:
+    loaders:[
+     {
+         test:/\.css$/,
+         loader:'style-loader!css-loader'
+     }   
     
 
     

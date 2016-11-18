@@ -8,8 +8,10 @@ webpack每日一练
 
 
 ##目录
-* [第一个webpack](./demo01)
-* [css-loader和style-loader](./demo03)
+* 1.[单个文件](./demo01)
+* 2.[指定目录](./demo02)
+* 3.[Css-loader](./demo03)
+* 4.[Style-loader](./demo03)
 * [文本](#文本)
     * 普通文本
     * 单行文本

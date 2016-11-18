@@ -8,7 +8,7 @@ webpack每日一练
 
 
 ##目录
-* [第一个webpack](./demo01/README.md)
+* [第一个webpack](./demo01)
 * [标题](#标题)
 * [文本](#文本)
     * 普通文本

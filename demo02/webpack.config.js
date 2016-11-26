@@ -4,14 +4,8 @@
  * github: https://github.com/lifetea
  */
 module.exports = {
-    context:'./app',
-    entry:{
-        page1:'./index.js',
-        page2:['./bundle-1.js','./bundle-2.js']
-    },
+    entry:'./entry.js',
     output:{
-        filename:'[name].js',
-        path:'./dist',
-        chunkFilename:'[id].bundle.js'
+        filename:'main.js'
     }
 };

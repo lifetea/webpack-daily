@@ -8,14 +8,18 @@ webpack每日一练
 
 
 ##目录
-* 0.[执行环境](./demo02)
-* 1.[读取](#Entry)
-    * [单个文件](./demo01)
-    * [多个文件](./demo01)
-* 2.[输出](./demo03)
-    * [单个文件](./demo01)
-    * [多个文件](./demo01)
-* 3.[Loader](#文本)
+* 1.[执行环境](./demo01)
+* 2.[读取](#Entry)
+    * [单个文件](./demo02)
+    * [多个文件](./demo03)
+* 3.[输出](#Output)
+    * [filename](./demo04)
+    * [path](./demo04)
+    * [publicPath](./demo04)  
+* 4.[装载](#Loader)
     * [Style-loader](./demo05)
     * [Css-loader](./demo05)
-
+    * [Url-loader](./demo06)
+* 5.[插件](#Plugins)
+    * [extract-text-webpack-plugin](./demo30)
+        * [基本操作](./demo30)

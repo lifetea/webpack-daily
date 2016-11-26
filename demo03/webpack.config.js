@@ -4,18 +4,14 @@
  * github: https://github.com/lifetea
  */
 module.exports = {
+    context:'./app',
     entry:{
-        main:'./entry.js',
+        page1:'./index.js',
+        page2:['./bundle-1.js','./bundle-2.js']
     },
     output:{
-        filename:'[name].js'
-    },
-    module:{
-        loaders:[
-            {
-                test:/\.css$/,
-                loader:'style-loader!css-loader'
-            }
-        ]
+        filename:'[name].js',
+        path:'./dist',
+        chunkFilename:'[id].bundle.js'
     }
 };

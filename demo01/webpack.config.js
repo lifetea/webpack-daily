@@ -1,11 +1,14 @@
 /**
- * Created by lifetea on 2016/11/17.
+ * Created by lifetea on 2016/11/19.
  * email: 494886251@qq.com
  * github: https://github.com/lifetea
  */
+var path = require('path')
 module.exports = {
-    entry:'./entry.js',
+    context:path.resolve('./','app'),
+    entry:'./entry',
     output:{
-        filename:'main.js'
+        filename:'[name].js',
+        path:'./dist'
     }
 };

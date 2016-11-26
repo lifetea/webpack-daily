@@ -1,7 +1,17 @@
-# 构建第一个webpack
+# 设置执行环境
 
 
-    1.配置 entry  输入文件  entry.js
-    2.配置 output 目录     main.js
-    
+###context:
+
+运行webpack命令的目录（必须为绝对路径并不更改输出环境）
+
+    var path = require('path')
+    module.exports = {
+        context:path.resolve('./','app'),
+        entry:'./entry',
+        output:{
+            filename:'[name].js',
+            path:'./dist'
+        }
+    };
     

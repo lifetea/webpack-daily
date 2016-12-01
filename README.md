@@ -1,6 +1,6 @@
 webpack每日一练
 ===========================
-学习和整理webpack相关内容
+学习和整理webpack 2.0+ 相关内容
 
     作者:lifetea
     mail:494886251@qq.com
@@ -20,6 +20,10 @@ webpack每日一练
     * [Style-loader](./demo05)
     * [Css-loader](./demo05)
     * [Url-loader](./demo06)
-* 5.[插件](#Plugins)
-    * [extract-text-webpack-plugin](./demo30)
-        * [基本操作](./demo30)
+* 5.[解决](#Resolve)
+* 6.[插件](#Plugins)
+    * [extract-text-webpack-plugin](./demo110)
+        * [基本操作](./demo110)
+    * [uglify-js 压缩代码](./demo130)
+         
+        

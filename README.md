@@ -28,5 +28,6 @@ webpack每日一练
     * [uglify-js 压缩代码](./demo130)
 * 8.[外部依赖 externals](#externals)
      * [使用cdn作为依赖](./demo200)   
-* 11.[外部依赖 externals](#externals)
-     * [使用cdn作为依赖](./demo200)        
+* 11.[简介 profile](#profile)
+     * [开启](./demo300)
+* 14.[devtool](#devtool)

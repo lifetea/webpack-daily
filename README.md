@@ -26,7 +26,7 @@ webpack每日一练
     * [extract-text-webpack-plugin](./demo110)
         * [基本操作](./demo110)
     * [uglify-js 压缩代码](./demo130)
-    * [commons-chunk-plugin 公共模块](./demo130)
+    * [commons-chunk-plugin 公共模块](./demo640)
 * 8.[外部依赖 externals](#externals)
      * [使用cdn作为依赖](./demo200)   
 * 11.[简介 profile](#profile)

@@ -3,3 +3,6 @@
  * email: 494886251@qq.com
  * github: https://github.com/lifetea
  */
+require('b.js')
+
+require('a.js')

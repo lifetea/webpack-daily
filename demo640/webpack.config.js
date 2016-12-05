@@ -15,7 +15,4 @@ module.exports = {
         loaders: [
         ]
     },
-    plugins: [
-
-    ]
 }
